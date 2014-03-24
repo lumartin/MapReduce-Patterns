@@ -4,8 +4,7 @@ import sys
 import csv
 import re
 
-reader = csv.reader(sys.stdin, delimiter='\t')#, lineterminator='\N', quoting = csv.QUOTE_NONE)
-#writer = csv.writer(sys.stdout, delimiter=',', quotechar='"')
+reader = csv.reader(sys.stdin, delimiter='\t')
 
 for line in reader:
    try:

@@ -11,12 +11,6 @@ oldKey = None
 for line in sys.stdin:
     thisKey = line.strip().split()
 
-    #if len(thisKey) != 1:
-        # Something has gone wrong. Skip this line.
-     #   continue
-
-    if oldKey and oldKey != thisKey:
-        #print oldKey, "\t", hitsTotal
 	hitsTotal += 1
 	if hitsTotal > topHits:
 	   topHits = hitsTotal
@@ -27,6 +21,5 @@ for line in sys.stdin:
     oldKey = thisKey
     hitsTotal += 1 
 
-#if oldKey != None:
 print topSite, "\t", topHits
 

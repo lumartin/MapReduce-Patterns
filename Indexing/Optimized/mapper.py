@@ -4,8 +4,7 @@ import sys
 import csv
 import re
 
-reader = csv.reader(sys.stdin, delimiter='\t')#, lineterminator='\N', quoting = csv.QUOTE_NONE)
-#writer = csv.writer(sys.stdout, delimiter=',', quotechar='"')
+reader = csv.reader(sys.stdin, delimiter='\t')
 
 for line in reader:
    try:
@@ -14,5 +13,5 @@ for line in reader:
 	for word in wordList:
 		if word <> '':
 			print word.lower() , "\t" , line[0]
-   except:
-	pass
+    except:
+		pass

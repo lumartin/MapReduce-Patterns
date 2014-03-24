@@ -19,7 +19,6 @@ for line in sys.stdin:
     	else:
 		firstContent = (1, (data_mapped[0]))
 		map = {plainKey : firstContent}
-		#print map
 
     	generalMap.update(map)
     except:

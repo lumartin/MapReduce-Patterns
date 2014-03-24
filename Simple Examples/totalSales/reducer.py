@@ -7,8 +7,6 @@ salesNumber = 0
 
 for line in sys.stdin:
     data_mapped = line.strip()
-    #if len(data_mapped) == 1:
-     #   continue
 
     salesTotal += float(data_mapped)
     salesNumber += 1
