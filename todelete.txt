@@ -1,0 +1,26 @@
+Indexing/forum_node_error.tsv
+Indexing/mapper.py
+Indexing/reducer.py
+Indexing/single_line.tsv
+Indexing/test_mapper.py
+Indexing/v2/fantastically.txt
+Indexing/v2/mapper.py
+Indexing/v2/reducer.py
+Mean/results.txt
+Simple Examples/mapper-lesson3-part1a.py
+Simple Examples/mapper-lesson3-part1b.py
+Simple Examples/mapper-lesson3-part1c.py
+Simple Examples/mapper.py
+Simple Examples/p1test.txt
+Simple Examples/reducer-lesson3-part1a.py
+Simple Examples/reducer-lesson3-part1b.py
+Simple Examples/reducer-lesson3-part1c.py
+Simple Examples/reducer.py
+Simple Examples/testfile.txt
+Tracking/mapper-ej1.py
+Tracking/mapper-ej2.py
+Tracking/part-00000
+Tracking/reducer-ej1.py
+Tracking/reducer-ej2.py
+Tracking/reducer-ej3.py
+Tracking/test.txt
